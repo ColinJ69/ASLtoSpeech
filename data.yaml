@@ -31,7 +31,7 @@ roboflow:
   project: singlanguagetospeech
   url: https://universe.roboflow.com/ColinJ69/singlanguagetospeech/dataset/1
   version: 1
-  workspace: ColinJ69
+  workspace: signlanguagetospeech
 test: C:\Users\johns\Downloads\signlanguagetospeech.v1i.multiclass (1).zip\test
 train: C:\Users\johns\Downloads\signlanguagetospeech.v1i.multiclass (1).zip\train
 val: C:\Users\johns\Downloads\signlanguagetospeech.v1i.multiclass (1).zip\valid
