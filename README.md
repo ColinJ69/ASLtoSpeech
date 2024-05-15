@@ -1,1 +1,1 @@
-Project in the works that detects ASL and translates it into sentences that are then spoken out the speaker.
+Pylance not working and all my code disappeared :/ be done it hopefully a few days tho.
