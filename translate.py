@@ -2,7 +2,6 @@ from roboflow import Roboflow
 from ultralytics import YOLO
 import cv2
 import time
-from PIL import Image
 import warnings
 import pyttsx3
 
