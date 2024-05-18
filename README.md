@@ -1,1 +1,2 @@
-Pylance not working and all my code disappeared :/ be done in hopefully a few days tho.
+Translates sign languages to english.
+Dataset used: https://universe.roboflow.com/221565zcv/cv2-a4ryn/dataset/9
