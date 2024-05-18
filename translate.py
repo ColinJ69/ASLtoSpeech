@@ -23,7 +23,7 @@ def detections():
             results = MODEL.predict(source = 'img.jpg',conf=.40, stream=False, show=True)
             try:
                 for result in results:
-                    if (result.boxes.cls).nelement() != 0:
+                    if int(result.boxes.cls) != None:
                         sentence.append(alphabet[int(result.boxes.cls)])
                     else:
                         print("none detected")
