@@ -29,6 +29,7 @@ def detections():
             except KeyboardInterrupt:#Ctrl+C to trigger KeyboardInterrupt and quit program
                 break
             
+        sentence = ''.join(sentence).replace('-',' ')
         return sentence
 def speak():#Pretty self explanatory 
     sentence = detections()
