@@ -23,10 +23,7 @@ def detections():
             results = MODEL.predict(source = 'img.jpg',conf=.40, stream=False, show=True)
             try:
                 for result in results:
-                    if int(result.boxes.cls) != None:
                         sentence.append(alphabet[int(result.boxes.cls)])
-                    else:
-                        print("none detected")
             except ValueError:
                 print("Error")
             except KeyboardInterrupt:#Ctrl+C to trigger KeyboardInterrupt and quit program
