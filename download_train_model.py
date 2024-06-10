@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 from roboflow import Roboflow
 
-from roboflow import Roboflow
+
 rf = Roboflow(api_key="xxxxxxxxxxxxxx")
 project = rf.workspace("221565zcv").project("cv2-a4ryn")
 version = project.version(9)
